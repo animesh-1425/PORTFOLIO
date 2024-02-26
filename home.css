@@ -540,7 +540,7 @@ body::-webkit-scrollbar{
   }
 
 }
-@media only screen and (min-width:768px){/*desktop*/
+@media only screen and (max-width:768px){/*desktop*/
 
 .scroll-text{
   font-size: 8px;
@@ -614,6 +614,9 @@ li>h3{
       height: auto;
     
   }
+  .skill{
+    margin-top: 5vh;
+}
   .heroheading{
     
     font-size: 40px;
@@ -643,6 +646,27 @@ li>h3{
     font-size:13px ;
    }
    #head1{
-    font-size: 6px;
+    font-size: 60px;
    }
+}
+@media only screen and (min-width:992px){
+  #hero{
+    width: 45vh;
+    height: 43vh;
+    margin-left: 15vh;
+  }
+  #cv{
+    width: 18vh;
+    height: 5vh;
+    font-size: 19px;
+  }
+  #intro{
+    font-size:20px ;
+   }
+   .skillimage{
+
+      width: 35vh;
+      
+    
+  }
 }
