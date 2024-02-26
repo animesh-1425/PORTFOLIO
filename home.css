@@ -122,7 +122,8 @@ body::after{
 #heroheading{
     font-family: 'Staatliches', cursive;
     font-size: 80px;
-    border: 2px solid black;  
+    border: 2px solid black; 
+     
 }
 #hero{
     margin-top: 2em;
@@ -260,9 +261,13 @@ h2{
   background: var(--cvbtn);
   box-shadow: var(--skillskew);
     z-index: -1;
+    
 }
 .skill{
     margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skillimage{
@@ -543,9 +548,7 @@ body::-webkit-scrollbar{
 }
 
 
-.work{
-  width:80%;
-}
+
 .a2{
   width: 100%;
   margin-left: 0;
@@ -605,14 +608,17 @@ li>h3{
 }
 @media only screen and (max-width:600px){ /*small devices*/
   .skillimage{
-    margin-top: 10vh;
-      width: 15vh;
+    margin-top: 4vh;
+      width: 20vh;
       height: auto;
     
   }
+  .heroheading{
+    font-size: 40px;
+  }
 
   #about{
-    font-size: 21px;
+    font-size: 15px;
   }
   #hero{
     width:25vh;
@@ -628,7 +634,7 @@ li>h3{
    #intro{
     font-size:13px ;
    }
-}
-@media only screen and (max-width:1200px){ /*large screens*/
-  
+   #head1{
+    font-size: 6px;
+   }
 }
