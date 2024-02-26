@@ -579,6 +579,7 @@ li>h3{
 }
 
 @media only screen and (min-width:600px){ /*Tablet*/
+
   .skillimage{
     
       width: 16vh;
@@ -614,7 +615,14 @@ li>h3{
     
   }
   .heroheading{
+    
     font-size: 40px;
+  }
+  #herocontainer{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
   }
 
   #about{
