@@ -1,19 +1,12 @@
-const menu=document.querySelector(".menu");
-const toggle=document.querySelector(".toggle");
-toggle.addEventListener("click",()=>{
-  menu.classList.toggle("active");
-})
-var icon=document.getElementById("icon3");
+const checkbox = document.getElementById("icon3");
 
-icon.onclick=function(){
-  document.body.classList.toggle("dark");
-  if(document.body.classList.contains("dark")){
-    icon.src="sun.png";
+checkbox.addEventListener("change", function() {
+  if (this.checked) {
+    document.documentElement.classList.add("dark");
+  } else {
+    document.documentElement.classList.remove("dark");
   }
-  else{
-    icon.src="moon.png";
-  }
-}
+});
 
 
 document.addEventListener('DOMContentLoaded', function() {
