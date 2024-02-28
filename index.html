@@ -20,40 +20,27 @@
 
 <body>
   <header>
-   <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid" >
-        <a class="navbar-brand pt-2 mx-5" href="#"><img src="logob1.png" alt="Animesh Dey" width="100px" height="80px"></a>
-        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-      
-     
-  
-        <div class="collapse navbar-collapse " id="collapsibleNavId">
-            <ul class=" navbar-nav me-auto mx-lg-5 mt-2 mt-lg-0">
-                <li class="nav-item  mx-lg-3">
-                    <a class="nav-link active" href="#" aria-current="page"><p class="navhead">Home</p></a>
-                </li>
-                <li class="nav-item mx-lg-3">
-                    <a class="nav-link active" href="#skills" aria-current="page"><p class="navhead">Skills</p></a>
-                </li>
-                <li class="nav-item mx-lg-3">
-                    <a class="nav-link active" href="#education" aria-current="page"><p class="navhead">Education</p></a>
-                </li>
-                <li class="nav-item mx-lg-3">
-                    <a class="nav-link active" href="#project" aria-current="page"><p class="navhead">Projects</p></a>
-                </li>
-                <li style="padding-left: 20px;" class="d-flex justify-content-center">
-                  <input id="icon3" type="checkbox" class="l">
-                </li>
-                
-            </ul>
+  <div class="navbars">
+    <div class="navbar-container container1">
+        <input type="checkbox" name="" id="">
+        <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
         </div>
-
-        
-     </div>
-   </nav>
+        <ul class="menu-items">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <input id="icon3" type="checkbox" class="l">
+            </li>
+        </ul>
+        <h1 class="logo">RS</h1>
+    </div>
+  </div>
    
   </header>
   <main >
@@ -131,7 +118,7 @@
 
    
     <!-- langugae rotate -->
-    <div id="head1" style="margin-top: 15vh;" ><h1 id="head1">LANGUAGES</h1></div>
+    <div id="languages" style="margin-top: 15vh;" ><h1 id="head1">LANGUAGES</h1></div>
     <div id="langdiv"> 
        
         <div class="menu" data-aos="fade-up" data-aos-duration="2000">
@@ -205,7 +192,7 @@
     </div>
       <!-- projects end -->
    
-      <div class="container my-3" style="display: flex;flex-direction:column;align-items:center;justify-content: center;">
+      <div class=" container my-3" id="education" style="display: flex;flex-direction:column;align-items:center;justify-content: center;">
         <div class="head1 text-center" style="margin-top: 100px;margin-bottom: 60px;"><h1 id="head1">EDUCATION</h1></div>
         <div class="row" data-aos="fade-up" data-aos-duration="2000">
           
@@ -256,22 +243,13 @@
     
 
   </main>
-  <footer>
-    <div class="row mx-auto d-flex" data-aos="fade-up" data-aos-duration="2000">
-      <div class="col-lg-6 col-md-6">
-        <h2>Address</h2>
-        <p>New Line, L-14/1</p>
-        <p>Moubhandar,Ghatshila</p>
-        <p>Jharkhand, PIN- 832103, India</p>
-        <p class="email">animesh1425@gmail.com</p>
-        <p>+91 - 9142402074</p>
-      </div>
-      <div class="col-lg-6 col-md-6 mt-lg-0 mt-md-0 mt-4">
-        <h2>Contact Me</h2>
-         <p><a href="https://www.linkedin.com/in/animesh-dey1425/"><i class="fa-brands fa-linkedin"></i></a> Linkedin</p>
-         <p><a href="https://twitter.com/dey_animes11491"><i class="fa-brands fa-twitter"></i></a> Twitter</p>
-         <p><a href="https://www.instagram.com/http.animeshh?igsh=OGt0MHVqMDNlNzdr"><i class="fa-brands fa-instagram"></i></a> Instagram</p>
-         <p><a href="https://www.facebook.com/animesh.dmz"><i class="fa-brands fa-facebook"></i></a> Facebook</p>
+  <footer id="contact">
+    <div class="row mx-auto" data-aos="fade-up" data-aos-duration="2000">
+      <div class="col-12 mt-lg-0 mt-md-0 mt-4 d-flex justify-content-center align-items-center">
+         <a href="https://www.linkedin.com/in/animesh-dey1425/"><i class="fa-brands fa-linkedin"></i></a>
+         <a href="https://twitter.com/dey_animes11491"><i class="fa-brands fa-twitter"></i></a>
+         <a href="https://www.instagram.com/http.animeshh?igsh=OGt0MHVqMDNlNzdr"><i class="fa-brands fa-instagram"></i></a>
+         <a href="https://www.facebook.com/animesh.dmz"><i class="fa-brands fa-facebook"></i></a>
       </div>
 
     </div>
