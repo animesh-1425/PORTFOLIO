@@ -1,5 +1,6 @@
 const checkbox = document.getElementById("icon3");
 
+
 checkbox.addEventListener("change", function() {
   if (this.checked) {
     document.documentElement.classList.add("dark");
@@ -7,6 +8,9 @@ checkbox.addEventListener("change", function() {
     document.documentElement.classList.remove("dark");
   }
 });
+
+
+
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -22,3 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //cvdownload
+
+const menu = document.querySelector(".menu2");
+const toggle1 = document.querySelector(".toggle1");
+toggle1.addEventListener('click', ()=>{
+  menu.classList.toggle("active1");
+  
+})

@@ -364,7 +364,7 @@ h2{
 
 
 
-.menu{
+.menu2{
     position:absolute;
    width:280px;
     height:280px;
@@ -373,7 +373,7 @@ h2{
     justify-content:center;
     background-color: transparent;
   }
-  .menu .toggle{
+  .menu2 .toggle1{
     position:relative;
     height:60px;
     width:60px;
@@ -387,11 +387,11 @@ h2{
     transition:1.25s;
     z-index:5;
   }
-  .menu.active .toggle{
+  .menu2.active1 .toggle1{
     transform:rotate(360deg);
    
   }
-  .menu li{
+  .menu2 li{
     position:absolute;
     left:0;
     list-style:none;
@@ -401,10 +401,10 @@ h2{
     scale:0;
     transition-delay: calc(0.05s * var(--i));
   }
-  .menu.active li{
+  .menu2.active1 li{
     scale:1;
   }
-  .menu li i{
+  .menu2 li i{
     position:relative;
     display:flex;
    transform:rotate(calc(360deg/-8 * var(--i)));
@@ -420,7 +420,7 @@ h2{
     transition:0.5s;
     text-decoration: none;
   }
-  .menu li:hover i{
+  .menu2 li:hover i{
     font-size:2.5rem;
     
   }
@@ -791,26 +791,26 @@ li>h3{
   align-items: center;
 }
 
-.menu-items {
+.menu1-items {
   order: 2;
   display: flex;
 }
 
-.menu-items li,label {
+.menu1-items li,label {
   list-style: none;
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
 }
 
-.menu-items a {
+.menu1-items a {
   text-decoration: none;
   color:var(--navhead);
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
 
-.menu-items a:hover {
+.menu1-items a:hover {
   color: #117964;
   transition: color 0.3s ease-in-out;
 }
@@ -822,7 +822,7 @@ li>h3{
 }
 @media (max-width: 500px) {
  
-  .navbars .menu-items li,label{
+  .navbars .menu1-items li,label{
       font-size: 1.6rem;
   }
 
@@ -835,7 +835,7 @@ li>h3{
     margin: auto;
   }
 
-  .food-menu-item {
+  .food-menu1-item {
     flex-direction: column;
     text-align: center;
   }
@@ -861,7 +861,7 @@ li>h3{
     font-size: 3rem;
   }
 
-  .navbars .menu-items li,label {
+  .navbars .menu1-items li,label {
     margin-bottom: 2.5rem;
     font-size: 1.8rem;
     font-weight: 500;
@@ -931,7 +931,7 @@ li>h3{
     transition: transform 0.4s ease-in-out;
   }
 
-  .navbars .menu-items {
+  .navbars .menu1-items {
     padding-top: 100px;
     background:var(--slider);
     height: 100vh;
@@ -945,7 +945,7 @@ li>h3{
   
   }
 
-  .navbars .menu-items li,label {
+  .navbars .menu1-items li,label {
     margin-bottom: 1.5rem;
     font-size: 1.3rem;
     font-weight: 500;
@@ -958,7 +958,7 @@ li>h3{
     font-size: 2rem;
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
+  .navbar-container input[type="checkbox"]:checked ~ .menu1-items {
     transform: translateX(0);
   }
 
