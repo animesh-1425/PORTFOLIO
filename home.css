@@ -233,6 +233,7 @@ body::after{
     color: var(--about);
     
 }
+
 #intro{
     font-size: 18px; 
     font-weight: 400;
