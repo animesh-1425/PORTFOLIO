@@ -12,10 +12,8 @@ checkbox.addEventListener("change", function() {
 
 
 
-
 document.addEventListener('DOMContentLoaded', function() {
   var navbar = document.querySelector('.container1');
-
   window.addEventListener('scroll', function() {
     if (window.scrollY > 100) {
         navbar.classList.add('navbar-bg');
@@ -25,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-//cvdownload
+
 
 const menu = document.querySelector(".menu2");
 const toggle1 = document.querySelector(".toggle1");
